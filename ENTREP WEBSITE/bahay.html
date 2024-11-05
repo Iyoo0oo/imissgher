@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Supply House</title>
+    <link rel="stylesheet" href="styling.css">
+</head>
+<body>
+
+    <header>
+        <h1>The Supply House</h1>
+    </header>
+
+    
+    <!--wrapper-->
+    <div id="wrapper">
+      <div id="body">
+          <ul id="topnav">
+            <a href="page2.html">About Us</a></li>
+            <a href="cart.html">Check your Cart</a></li>
+          </ul>
+              <div id="banner">
+                <h2>The Suppply House</h2>
+                  <p class="p2"><em>Study smart, shop easy</em></p>
+              </div>
+         <!-- Sidebar -->
+<aside id="sidebar">
+    <section class="sidebar-section">
+        <h2>About</h2>
+        <p>Established in 2025, The Supply House aims to help you easily buy supplies online, with options for customizing products to your liking!</p>
+    </section>
+
+    <section class="sidebar-section">
+        <h2>Best Sellers</h2>
+        <ul>
+            <li><a href="#">Refillable Ink Pen</a></li>
+            <li><a href="#">Ballpoint Pen</a></li>
+            <li><a href="#">Gel Pen</a></li>
+            <li><a href="#">Click Pen (Ballpoint)</a></li>
+            <li><a href="#">Click Pen (Gel)</a></li>
+        </ul>
+    </section>
+
+    <section class="sidebar-section">
+        <h2>Notebooks</h2>
+        <ul>
+            <li><a href="#">Binder Notebook</a></li>
+            <li><a href="#">Thread Notebook</a></li>
+            <li><a href="#">Spiral Notebook</a></li>
+            <li><a href="#">Leather Notebook</a></li>
+            <li><a href="#">Hardcover Spiral Notebook</a></li>
+        </ul>
+    </section>
+</aside>
+
+          </div> 
+      </div> 
+
+    <section class="store-items">
+        <div class="container">
+
+<!--Notebook-->
+            <div class="item">
+                <img src= "NOTEBOOK.jpg" alt="Notebook" class="item-image">
+                <h2>Notebook</h2>
+                <h5>Description: used for writing, drawing, journaling, or scrapbooking Customizations <br>
+                    such as color, amount of paper, and cover are available. You may also choose your<br>
+                     desired quantity of the item.</h5><br>
+                <p>₱50</p>
+                <br class="2">
+                <div class="product-options">
+
+                    <label for="notebook-color">Color:</label>
+                    <select id="notebook-color">
+                        <option value="Red">Red</option>
+                        <option value="Blue">Blue</option>
+                        <option value="Green">Green</option>
+                    </select><br><br>
+
+                    <label for = "notebook-paper">Paper: </label>
+                    <select id="notebook-paper">
+                      <option value="A4 (8.3 x 11.7 inches) "> A4 (8.3 x 11.7 inches)</option>
+                      <option value="A4 (8.3 x 11.7 inches)"> A4 (8.3 x 11.7 inches)</option>
+                      <option value="A6 (4.1 x 5.8 inches)"> A6 (4.1 x 5.8 inches)</option>
+                    </select><br><br>
+
+                     <label for = "notebook-type">Cover: </label>
+                    <select id="notebook-type">
+                      <option value="Plastic Covered ">Plastic cover</option>
+                      <option value="Hard Covered">Hard Cover</option>
+                      <option value="Leather Covered Notebook">Leather Notebook</option>
+                      <option value="Spiraled Notebook (transparent)">Spiral Notebook </option>
+                      <option value="Threadeed Notebook">Thread Notebook </option>
+                    </select> 
+                    <br><br>
+
+                    <label for="notebook-qty">Quantity:</label>
+                    <input type="number" id="notebook-qty" value="1" min="1" max="10">
+                </div>
+                <br><button class="add-to-cart" data-name="Notebook" data-price="50">Add to Cart</button>
+            </div>
+
+<!--pencil-->
+            <div class="item">
+                <img src="PENCIL.jpg" alt="Pencil" class="item-image">
+                <h2>Pencil</h2>
+
+                <h5>Description: used for writing or drawing Customizations <br>
+                    such as the type of ballpen is available. You may also choose <br>
+                    your desired quantity of the item.</h5>
+
+                <p>₱15</p>
+
+                <div class="product-options">
+                    <label for="pencil-type">Type:</label>
+                    <select id="pencil-type">
+                        <option value="Mechanical">Mechanical</option>
+                        <option value="Wooden">Wooden</option>
+                    </select><br>
+
+                    <label for="pencil-qty">Quantity:</label>
+                    <input type="number" id="pencil-qty" value="1" min="1" max="10">
+                </div>
+                <button class="add-to-cart" data-name="Pencil" data-price="15">Add to Cart</button>
+            </div>
+
+<!--Organizer-->
+            <div class="item">
+                <img src="ORGANIZERS.jpg" alt="Organizer" class="item-image">
+                <h2>Organizer</h2>
+                <h5>Description: used for managing your personal files and belongings in a neat manner<br>
+                    Customizations are not available for organizers. But, quantity can be chosen to your desire.</h5>
+                <p>₱70</p>
+
+                <div class="product-options">
+                    <label for="Org-material">Material:</label>
+                    <select id="Org-material">
+
+                        <option value="Wood">Wood</option>
+                        <option value="Plastic">Plastic</option>
+                        <option value="Metal">Metal</option>
+                    </select><br>
+
+                    <label for = "Org-size"> Size: </label>
+                    <select id="Org-size">
+                      <option value="Small (15cm x 10cm x 7.5cm)"> Small (15cm x 10cm x 7.5cm)</option>
+                      <option value="Medium (25cm x 15cm x 10cm)"> Medium (25cm x 15cm x 10cm)</option>
+                      <option value="Large (38cm x 20cm x 15cm)"> Large (38cm x 20cm x 15cm)</option>
+                    </select><br><br>
+
+                    <label for="Org-color"> Organizer color:</label>
+                            <select id="Org-color">
+                                <option value="Red">Red</option>
+                                <option value="Blue">Blue</option>
+                                <option value="Green">Green</option>
+                                <option value="Black">Black</option>
+                                <option value="Pink">Pink</option>
+                                <option value="Orange">orange</option>
+                            </select><br><br>
+
+                    <label for="Org-qty">Quantity:</label>
+                    <input type="number" id="Org-qty" value="1" min="1" max="10">
+                </div>
+                <button class="add-to-cart" data-name="Organizer" data-price="70">Add to Cart</button>
+
+            </div>
+
+<!--Pen-->
+            <div class="item">
+                <img src="PEN.jpg" alt="Pen" class="item-image">
+                <h2>Pen</h2>
+                <h5>Description: used for writing, Customizations such as pen color, ink color, pen type,<br>
+                    pen-tip are available. You may also choose your desired quantity of the item.</h5>
+                <p>₱25</p>
+                <br class="2">
+                    <div class="product-options">
+                        <label for="Pen-color"> Pen Color:</label>
+                            <select id="Pen-color">
+                            <option value="Red">Red</option>
+                            <option value="Blue">Blue</option>
+                            <option value="Green">Green</option>   
+                        </select><br><br>
+                            
+                        <label for="Pen-ink"> Ink color:</label>
+                            <select id="Pen-ink">
+                                <option value="Red">Red</option>
+                                <option value="Blue">Blue</option>
+                                <option value="Green">Green</option>
+                                <option value="black">Black</option>
+                                <option value="Pink">Pink</option>
+                                <option value="Orange">orange</option>
+                            </select><br><br>
+        
+                        <label for = "Pen-type"> Pen type: </label>
+                            <select id="Pen-type">
+                              <option value="Ballpoint pen">Ballpoint </option>
+                              <option value="Gel pen">Gel pen </option>
+                              <option value="Rollerball pen">Roller ball pen</option>
+                              <option value="Fountainpen">Fountain pen</option>
+                              <option value="Stylus pens">Stylus pens</option>
+                              <option value="Highlighter pens">Highlighter pens</option>
+                              <option value="Disposable pen">Disposable pen</option>
+                              <option value="Felt pen">Felt pen</option>
+                              <option value="Refillable ink pen">Refillable ink pen</option>
+                            </select><br><br>
+     
+                        <label for = "Pen-tip"> Pen-tip: </label>
+                            <select id="Pen-tip">
+                              <option value="Click Ballpoin Pen">Click Ball Point</option>
+                              <option value="Click Rollerball Point">Click Rollerball Point</option>
+                              <option value="N/A">N/A</option>
+                            </select>
+                            <br><br>
+                            <label for="Pen-qty">Quantity:</label>
+                            <input type="number" id="Pen-qty" value="1" min="1" max="10">
+                    </div>
+                <br><button class="add-to-cart" data-name="Pen" data-price="25">Add to Cart</button>
+            </div>
+
+<!--Marker-->
+            <div class="container">
+                <div class="item">
+              <img src="MARKER.jpeg" alt="Marker" class="item-image">
+                <h2>Marker</h2>
+                <h5>Description: used for writing or drawing Customizations such <br>
+                    as marker color and ink color are available. You may also choose<br>
+                     your desired quantity of the item.
+                <p>₱25</p>
+                <br class="2">
+            <div class="product-options">
+
+            <label for="Marker-color">Marker color:</label>
+                <select id="Marker-color">
+                    <option value="Red">Red</option>
+                    <option value="Blue">Blue</option>
+                    <option value="Green">Green</option>  
+                </select><br><br>
+                
+            <label for="ink-color"> Ink color:</label>
+                <select id="ink-color">
+                    <option value="Red">Red</option>
+                    <option value="Blue">Blue</option>
+                    <option value="Green">Green</option>
+                    <option value="Black">Black</option>
+                    <option value="Pink">Pink</option>
+                    <option value="Orange">Orange</option>
+                </select><br><br>
+
+                <label for="Marker-quantity">Quantity:</label>
+                <input type="number" id="Marker-qty" value="1" min="1" max="10">
+            </div>
+            <br><button class="add-to-cart" data-name="Marker" data-price="25">Add to Cart</button>
+        </div>
+
+</div>
+
+
+</div>
+</section>
+
+    <section class="cart">   
+        <h2>Your Cart</h2>
+        <ul id="cart-items"></ul>
+        <p>Total: ₱<span id="total-price">0.00</span></p>
+    </section>
+
+    <script src="script2.js"></script>
+</body>
+</html>

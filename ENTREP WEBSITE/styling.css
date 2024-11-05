@@ -1,0 +1,261 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    padding: 20px;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #333;
+    text-align: left;
+}
+
+h5{
+padding: 20px;
+}
+.p2{ 
+padding: 20px;
+float: left;
+}
+.p3{ 
+    text-align: center;
+    }
+
+select {
+    width: 60 px;
+}
+
+#banner h1 {
+    font-size: 32px;
+    margin: 0;
+    color: #333;
+}
+
+#banner p {
+    color: #666;
+}
+
+.store-items {
+    width: flex;
+    height: flex;
+    display: flex; /* Use flexbox for horizontal alignment */
+    justify-content: center; /* Center items horizontally */
+    gap: 30px; /* Space between items */
+    flex-wrap: flex; /* Allow items to wrap on smaller screens */
+    margin-top: 20px; /* Add some space above the items */
+}
+
+.item {
+    border: 1px solid #beb9b9;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #fff;
+    width: 900px; /* Adjusted width for wider items */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.item:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+}
+
+
+
+.item-image {
+    text-align: left;
+    float: right;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.item h2 {
+    text-align: left;
+    float: left;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.item p {
+    
+    width: 90px;
+    height: 90px;
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+} 
+
+
+.product-options label {
+    text-align: left;
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #444;
+}
+
+.product-options select,
+.product-options input {
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.add-to-cart {
+    
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+    background-color: #45a049;
+    
+}
+
+.cart {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#cart-items {
+    list-style-type: none;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+#cart-items li {
+    margin-bottom: 5px;
+}
+
+#total-price {
+    font-weight: bold;
+    color: #000;
+}
+
+/* Wrapper & Banner */
+#wrapper {
+    background: rgba(159, 210, 217, 0.5);
+    padding: 10px;
+    margin: 1% auto;
+    width: 90%;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#banner {
+    position: relative;
+    padding: 10px;
+    height: 175px;
+    border: 0px;
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+}
+
+#topnav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+#topnav a {
+    background-color: #e59cef;
+    color: #333;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+#topnav a:hover {
+    background-color: #d68ce1;
+    color: #222;
+}
+/* Sidebar Styles */
+#sidebar {
+    background-color: #f9f9f9;
+    width: 250px;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    color: #333;
+    float: right;
+}
+
+.sidebar-section {
+    margin-bottom: 20px;
+}
+
+#sidebar h2 {
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #9f0aa7;
+}
+
+#sidebar p {
+    padding: 10px 0;
+    line-height: 1.5;
+}
+
+#sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+#sidebar ul li {
+    padding: 8px 0;
+}
+
+#sidebar ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: normal;
+    padding: 5px 2px;
+    display: block;
+    transition: color 0.3s ease;
+}
+
+#sidebar ul li a:hover {
+    color: #0073e6;
+}
+
+
+#footer {
+    padding: 20px;
+    background-color: rgba(159, 210, 217, 0.7);
+    font-size: 12px;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 20px;
+}
